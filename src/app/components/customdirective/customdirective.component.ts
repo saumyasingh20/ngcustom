@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customdirective.component.css']
 })
 export class CustomdirectiveComponent implements OnInit {
-
+  condition:boolean=false;
   constructor() { }
 
   ngOnInit(): void {

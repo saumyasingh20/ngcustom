@@ -9,6 +9,7 @@ import { CustomPipeComponent } from './components/custom-pipe/custom-pipe.compon
 import { FlyingHeroesPipe } from './pipes/flying-heroes.pipe';
 import { HighlightDirective } from './directives/highlight.directive';
 import { CustomdirectiveComponent } from './components/customdirective/customdirective.component';
+import { UnlessDirective } from './directives/unless.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CustomdirectiveComponent } from './components/customdirective/customdir
     CustomPipeComponent,
     FlyingHeroesPipe,
     HighlightDirective,
-    CustomdirectiveComponent
+    CustomdirectiveComponent,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
